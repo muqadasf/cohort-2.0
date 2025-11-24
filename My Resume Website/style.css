@@ -1,0 +1,133 @@
+@font-face {
+    font-family: resumename;
+    src: url(./RuntimeRegular-m2Odx.woff2);
+}
+@font-face {
+    font-family: queensides;
+    src: url(./Queensides-3z7Ey.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #F4F9FC;
+}
+
+.main{
+    height: 35%;
+    width: 100%;
+    background-color: #1A2434;
+      margin-bottom: 40px;
+}
+.main h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: resumename;
+}
+
+.main p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: queensides;
+     font-weight: 100;
+
+}
+
+.box{
+    text-align: center;
+    width: 80%;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.box h2{
+    font-size: 30px;
+    text-transform: uppercase;
+      margin-bottom: 20px;
+    font-family: resumename;
+}
+
+.box p{
+    margin: 15px auto;
+    width: 60%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-family: queensides;
+   font-size: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box p:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+}
+.about{
+ background-color: white;
+}
+
+.about p {
+    width: auto;
+     margin: 0 auto;
+    font-size: 20px;
+    font-family: queensides;
+    box-shadow: none;   
+}
+.about p:hover{
+    box-shadow: none;
+    cursor: default;
+    font-weight: normal;
+}
+
+.education{
+    background-color: #DCF1FF;
+}
+
+.education h2{ 
+    color: #1A2434;
+}
+
+.skills{
+    background-color: #FEF1BF;
+}
+
+.skills p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.projects{
+    background-color: #EBE6FE;
+} 
+
+.projects p{
+    font-style: italic;
+}
+
+.contact{
+    background-color: #D7FCE3;
+}
+
+footer{
+    background-color: #1A2434 ;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-family: resumename;
+    text-transform: uppercase;
+}
