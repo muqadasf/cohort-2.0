@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #131D26;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1fr;
+  grid-template-areas: "item1 item2 item2 item2" "item1 item3 item4 item5";
+  gap: 10px;
+  padding: 10px;
+}
+main #item1 {
+  background-image: url(https://i.pinimg.com/736x/5e/35/e9/5e35e9ef9e71af62ebc56eb924045897.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  grid-area: item1;
+}
+main #item2 {
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  background-image: url(https://i.pinimg.com/1200x/d6/d5/29/d6d5297bca7c612089c4004056a6840b.jpg);
+  grid-area: item2;
+}
+main #item3 {
+  background-image: url(https://i.pinimg.com/736x/0b/be/3a/0bbe3a98ceb6e8ca81b04c41141dc213.jpg);
+  grid-area: item3;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+main #item4 {
+  background-image: url(https://i.pinimg.com/736x/8f/3b/cf/8f3bcf4fc5c8d72bf11e6ce5c88fdb6c.jpg);
+  grid-area: item4;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+main #item5 {
+  background-image: url(https://i.pinimg.com/1200x/90/9e/64/909e6410b21e8bb346dc4ac75c381ad7.jpg);
+  grid-area: item5;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}/*# sourceMappingURL=style.css.map */
